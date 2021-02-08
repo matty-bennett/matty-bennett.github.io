@@ -11,8 +11,8 @@
 
 
 body {
-    background-color: #313131;
-    color: #ffffff;
+    background-color: #d4ccc5;
+    color: #313131;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
@@ -24,7 +24,7 @@ header {
     justify-content: space-between;
     padding: 20px 50px;
     flex-wrap: wrap;
-    background-color: #1a2031;
+    background-color: #112018;
     align-items: center;
 }
 
@@ -50,10 +50,6 @@ header nav ul a {
     color: #ffffff;
 }
 
-section {
-    margin: 30px;
-}
-
 .hero {
     background-image: url(../images/portfolio-hero.jpg);
     background-size: cover;
@@ -63,6 +59,7 @@ section {
     justify-content: space-around;
     align-items: flex-end;
     flex-wrap: wrap;
+    margin: 0;
 }
 
 .hero img {
@@ -89,37 +86,88 @@ section {
 }
 
 .border {
-    border-bottom: 3px solid #ffff;
+    border-bottom: 3px solid #313131;
     display: inline-block;
     margin: 0;
 }
 
+.hero-text h2 {
+    color: #d4ccc5;
+    font-size: 40px;
+}
+
 .hero-text p {
     line-height: 1.5;
+    color: #d4ccc5;
+}
+
+.page-wrapper {
+    max-width: 90%;
+    margin: 0 auto;
 }
 
 .page-section {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.page-section p {
+    text-align: left;
+}
+
+.page-section h2 {
+    font-size: 35px;
+    color: #11442c;
+    border-bottom: 2px solid #11442c;
+    margin: 0 auto 35px auto;
+    width: 50%;
+    padding-bottom: 25px;
 }
 
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: flex-start;
+    
 }
 
 .flex-item {
+    border: 5px solid #11442c;
+    background-color: ;
+    color: ;
+    min-height: 250px;
+    max-height: 250px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 20px;
+    margin: 0.5em;
     text-decoration: none;
+    background-size: cover;
+    font-size: 20px;
+}
+
+.flex-item:first-child {
+    min-height: 400px;
+    flex-basis: 100%;
 }
 
 .flex-item div {
     padding: 8px 10px;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.run-buddy {
+    background-image: url('../images/hero-bg.jpg');
+}
+
+.horiseon {
+    background-image: url('../images/digital-marketing-meeting.jpg');
+}
+
+.lorem {
+    background-image: url("https://via.placeholder.com/150");
 }
