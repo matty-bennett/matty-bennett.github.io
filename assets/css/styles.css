@@ -32,7 +32,8 @@ header h1 {
     font-size: 50px;
     margin: 0;
     text-decoration: none;
-    color: #ffffff;
+    color: #d4ccc5;
+    text-shadow: 0 0 10px rgba(173, 161, 161, 0.5);
 }
 
 header a {
@@ -47,7 +48,8 @@ header nav ul {
 
 header nav ul a {
     margin: 0 25px;
-    color: #ffffff;
+    color: #d4ccc5;
+    text-shadow: 0 0 10px rgba(173, 161, 161, 0.5);
 }
 
 .hero {
@@ -64,6 +66,8 @@ header nav ul a {
 
 .hero img {
     height: 500px;
+    border: 5px solid #313131;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
 .hero-img {
@@ -94,17 +98,15 @@ header nav ul a {
 .hero-text h2 {
     color: #d4ccc5;
     font-size: 40px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
 .hero-text p {
     line-height: 1.5;
     color: #d4ccc5;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
-.page-wrapper {
-    max-width: 90%;
-    margin: 0 auto;
-}
 
 .page-section {
     display: flex;
@@ -112,11 +114,12 @@ header nav ul a {
     flex-wrap: wrap;
     align-items: center;
     text-align: center;
-    margin: 50px 0;
+    margin: 25px 0;
 }
 
 .page-section p {
     text-align: left;
+    margin: 0 150px;
 }
 
 .page-section h2 {
@@ -126,6 +129,7 @@ header nav ul a {
     margin: 0 auto 35px auto;
     width: 50%;
     padding-bottom: 25px;
+    text-shadow: 0 0 10px rgba(56, 55, 55, 0.5);
 }
 
 .flex-container {
@@ -137,8 +141,8 @@ header nav ul a {
 
 .flex-item {
     border: 5px solid #11442c;
-    background-color: ;
-    color: ;
+    background-color: #11442c;
+    color: #d4ccc5;
     min-height: 250px;
     max-height: 250px;
     flex-basis: calc(50% - 1em);
@@ -148,7 +152,10 @@ header nav ul a {
     margin: 0.5em;
     text-decoration: none;
     background-size: cover;
-    font-size: 20px;
+}
+
+.flex-item h3 {
+    margin: 10px 0;
 }
 
 .flex-item:first-child {
@@ -158,6 +165,11 @@ header nav ul a {
 
 .flex-item div {
     padding: 8px 10px;
+    background-color: #11442c;
+}
+
+.flex-item:hover {
+    border: 5px solid #965129;
 }
 
 .run-buddy {
@@ -169,5 +181,81 @@ header nav ul a {
 }
 
 .lorem {
-    background-image: url("https://via.placeholder.com/150");
+    background-image: url("../images/placeholder.png");
 }
+
+#contact {
+    margin-bottom: 50px;
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 35px;
+    color: #11442c;
+    border-bottom: 2px solid #11442c;
+    margin: 0 auto 35px auto;
+    width: 50%;
+    padding-bottom: 25px;
+    text-shadow: 0 0 10px rgba(56, 55, 55, 0.5);
+}
+
+#contact address {
+    display: flex;
+    justify-content: space-around;
+}
+
+#contact address a {
+    text-decoration: none;
+    color: #11442c;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#contact address a:hover {
+    color: #965129;
+  }
+
+@media screen and (max-width: 1400px) {
+    .vl {
+        border: none
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .hero {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-text {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    header {
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header nav ul {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+  }
+
+@media screen and (max-width: 768px) {
+
+  }
+
+@media screen and (max-width: 575px) {
+
+  }
