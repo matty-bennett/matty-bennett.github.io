@@ -1,0 +1,125 @@
+:root {
+    --main-text: #f0b209;
+    --main-background: #313131;
+
+}
+
+* { 
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: #313131;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* header style start */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    flex-wrap: wrap;
+    background-color: #1a2031;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 50px;
+    margin: 0;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header nav ul a {
+    margin: 0 25px;
+    color: #ffffff;
+}
+
+section {
+    margin: 30px;
+}
+
+.hero {
+    background-image: url(../images/portfolio-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.hero img {
+    height: 500px;
+}
+
+.hero-img {
+    width: 40%;
+    margin: 3.5%;
+}
+
+.vl {
+    border-right: 1px solid #313131;
+    height: 525px;
+    left: 50%;
+    margin-left: 15px;
+    margin-bottom: 38px;
+}
+
+.hero-text {
+    margin: 3.5%;
+    width: 35%;
+    text-align: left;
+}
+
+.border {
+    border-bottom: 3px solid #ffff;
+    display: inline-block;
+    margin: 0;
+}
+
+.hero-text p {
+    line-height: 1.5;
+}
+
+.page-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-item {
+    text-decoration: none;
+}
+
+.flex-item div {
+    padding: 8px 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

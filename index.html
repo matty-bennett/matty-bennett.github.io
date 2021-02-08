@@ -9,9 +9,7 @@
 <body>
     <!-- navigation tags -->
     <header>
-        <h1>
-            <a href="/">Matt Bennett</a>
-        </h1>
+        <h1>Matt Bennett</h1>
         <nav>
             <ul>
                 <a href="#about-me">About Me</a>
@@ -24,14 +22,22 @@
 
     <!-- hero/banner -->
     <section class="hero">
-        <div>
-            <h2>Hello, I'm Matt ...</h2>
+        <div class="hero-img">
+            <img src="assets/images/portfolio-pic.jpg" alt="Matt Bennett">
+        </div>
+        <div class="vl"></div>
+        </div>
+        <div class="hero-text">
+            <h2 class="border">Hello, I'm Matt</h2>
+            <p>I am currently in the University of Utah Professional Education's Coding Bootcamp, studying Full-Stack web development</p>
         </div>
     </section>
 
     <!-- about me -->
     <section class="page-section" id="about-me">
-        <h2>About Me</h2>
+        <div>
+            <h2>About Me</h2>
+        </div>
         <div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, distinctio consequuntur vitae asperiores id obcaecati! Deleniti hic impedit molestiae minima maxime quis dolore quam at, illum architecto sapiente! Impedit, quas.</p>
         </div>
@@ -40,10 +46,42 @@
     <!-- projects -->
     <section class="page-section" id="projects">
         <h2>My Projects</h2>
+        <div class="flex-container">
+
+            <a href="#" class="flex-item run-buddy">
+                <div>
+                <h3>Run Buddy</h3>
+                <h4>HTML/CSS</h4>
+                </div>
+            </a>
+
+            <a href="#" class="flex-item horiseon">
+                <div>
+                <h3>Horiseon</h3>
+                <h4>HTML/CSS refactored</h4>
+                </div>
+            </a>
+
+            <a href="#" class="flex-item lorem">
+                <div>
+                <h3>Lorem</h3>
+                <h4>Ipsum</h4>
+                </div>
+            </a>
+
+            <a href="#" class="flex-item lorem">
+                <div>
+                <h3>Lorem</h3>
+                <h4>Ipsum</h4>
+                </div>
+            </a>
+
+
+        </div>
     </section>
 
     <!-- contact info -->
-    <section class="page-section" id="contact">
+    <footer class="footer" id="contact">
         <h2>Contact Info</h2>
         <div>
             <address>
@@ -54,6 +92,6 @@
                 <a href="https://open.spotify.com/user/22ax5y66lgarcwnyz6jdfzirq" target="_blank" rel="noopener noreferrer">Spotify</a>
             </address>
         </div>
-    </section>
+    </footer>
 </body>
 </html>
