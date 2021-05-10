@@ -180,6 +180,10 @@ header nav ul a {
     background-image: url('../images/digital-marketing-meeting.jpg');
 }
 
+.just-my-type {
+    background-image: url("../images/SCREENSHOT2.jpeg");
+}
+
 .lorem {
     background-image: url("../images/placeholder.png");
 }

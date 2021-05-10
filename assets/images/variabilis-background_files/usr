@@ -1,0 +1,13 @@
+nvg60118.start('da21b21c1df20553a0301621509', '', '');
+nvg60118.include('//dpm.demdex.net/ibs:dpid=822&dpuuid=58554261953&redir=https%3A//sync.navdmp.com/sync%3Fid%3D58554261953%26adID%3D%24%7BDD_UUID%7D%26img%3D1','img');
+nvg60118.include('//ad.sxp.smartclip.net/sync?type=red&dsp=75','script');
+nvg60118.include('https://sync-tm.everesttech.net/upi/pid/DuqQKWX7/?redir=https%3A//sync.navdmp.com/sync%3Fprtid%3D17%26tubid%3D%24%7BTM_USER_ID%7D','script');
+nvg60118.include('https://secure.adnxs.com/getuid?https://sync.navdmp.com/sync?appNx=$UID&img=1','img');
+nvg60118.include('//match.adsrvr.org/track/cmf/generic?ttd_pid=u7695wg&ttd_tpi=1','img');
+nvg60118.include('//gu.dyntrk.com/dp/navegg.php?pid=nav3gg&uid=58554261953','script');
+nvg60118.include('//sync.crwdcntrl.net/map/c=15478/tp=NVEG/tpid=58554261953?https%3A//sync.navdmp.com/sync%3Fprtid%3D38%26lotid%3D%24%7Bprofile_id%7D','script');
+nvg60118.include('//tags.bluekai.com/site/31435?id=58554261953&redir=https%3A//sync.navdmp.com/sync%3Fprtid%3D18%26blkid%3D%24_BK_UUID','script');
+nvg60118.include('//trc.taboola.com/sg/navegg/1/cm','script');
+nvg60118.include('//beacon.krxd.net/usermatch.gif?partner=navegg&partner_uid=da21b21c1082d7081159b54f909','script');
+nvg60118.include('//sync.smartadserver.com/getuid?url=https%3A%2F%2Fsync.navdmp.com%2Fsync%3Fprtid%3D36%26uid%3D%5Bsas_uid%5D','img');
+nvg60118.doSync('2');
